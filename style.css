@@ -1,0 +1,278 @@
+#bb{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(214, 234, 235);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container{ 
+    padding: 20px;
+    padding-left: 7%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.box{
+    border-width: 5px ;
+    border-color:cadetblue;
+    border-style:solid;
+    padding: 1%;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+#home {
+    width: 500px;
+    padding-left: 3%;
+    padding: 3%;
+    margin-right: 10%;
+
+}
+#pic img{
+    border-radius: 50px;
+    height: 750px;
+    width: 500px;
+}
+#head{
+    background-color: antiquewhite;
+    width: 700px;
+    height: 40px;
+    padding: 2%;
+     font-style: italic;
+     margin-top: 25px;
+     margin-bottom: 20px;
+     text-align: center;
+     margin: 20px auto;
+     border-radius: 50px;
+     border-color: cadetblue;
+     border-style: solid;
+     border-width: 7px;
+     width: 600px;
+     display:flex;
+     justify-content: center;   
+     align-items: center;
+     height: 70px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
+#button-container button{
+    border-radius: 50px;
+    border-width: 4px;
+    border-style:solid ;
+    border-color: cadetblue;
+    background-color: beige;
+    padding: 1%;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+}
+#button-container button:hover{
+    background-color: cadetblue;
+    color: beige;
+}
+#button-container button:focus{
+    outline: none;
+}
+
+footer{
+ text-align: center;
+ margin-top: 20px;   
+}
+
+#pdf{
+    background-color: cadetblue;
+    border-width: 10px;
+    border-color:cadetblue;
+    border-style:solid;
+    padding: 4%;
+    border-radius: px;
+    margin: 10px;
+}
+#downloadbutton
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+#downloadbutton button{
+    border-radius: 50px;
+    border-width: 4px;
+    border-style:solid ;
+    border-color: cadetblue;
+    background-color: beige;
+    padding: 1%;
+    margin: 10px;
+    width: 250px;
+    font-size: 20px;
+    height: 70px;
+}
+#downloadbutton button:hover{
+    background-color: cadetblue;
+    color: beige;
+}
+
+.container2{
+    padding:4%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#p
+{
+    border-width: 5px ;
+    border-color: cadetblue;
+    border-style:solid;
+    width: 350px;
+    height: px;
+    padding: 1%;
+    border-radius: 50px;
+    background-color: beige;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin: auto;
+     margin-top: 20px;
+     font-style: italic;
+
+     
+}
+
+
+
+#p1
+{
+    border-width: 5px ;
+    border-color: cadetblue;
+    border-style:solid;
+    padding: 3%;
+    border-radius: 50px;
+    background-color: beige;
+    
+}
+#p2
+{
+    border-width: 5px ;
+    border-color: cadetblue;
+    border-style:solid;
+    padding: 3%;
+    border-radius: 50px;
+    background-color: beige;
+}
+#p3
+{
+    border-width: 5px ;
+    border-color: cadetblue;
+    border-style:solid;
+    padding: 3%;
+    border-radius: 50px;
+    background-color: beige;
+}
+#homebutton
+    {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        border-radius: 50px;
+        width: 200px;
+        text-align: center;
+        
+    }
+
+#homebutton button{
+    border-radius: 50px;
+    border-width: 4px;
+    border-style:solid ;
+    border-color: cadetblue;
+    background-color: beige;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin: 20px auto;
+    margin-top: 0px;
+}
+#homebutton button:hover{
+    background-color: cadetblue;
+    color: beige;
+}
+#c{
+    
+        border-width: 5px ;
+        border-color:cadetblue;
+        border-style:solid;
+        width: 700px;
+        height: 70px;
+        padding: 2%;
+        border-radius: 50px;
+        background-color: beige;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 20px auto;
+        font-style: italic;
+         
+    
+    
+}
+#contact{
+    border-width: 5px ;
+    border-color: cadetblue;
+    border-style:solid;
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    padding: 4%;
+    padding-left: 60px;
+    background-color: beige;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: centers;
+    
+    margin-left: 500px;
+     
+}
+
+#homebutton-c{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    
+
+}
+
+#homebutton-c button{
+    border-radius: 50px;
+    border-width: 4px;
+    border-style:solid ;
+    border-color: cadetblue;
+    background-color: beige;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin: 20px auto;
+    margin-top: 0px;
+}
+
+#homebutton-c button:hover{
+    background-color: cadetblue;
+    color: beige;
+}
