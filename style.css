@@ -5,6 +5,17 @@
     margin: 0;
     padding: 0;
 }
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.navbar-center {
+    flex: 1;
+    text-align: center;
+}
 .container{ 
     padding: 20px;
     padding-left: 7%;
@@ -239,7 +250,7 @@ footer{
     font-size: large;
     justify-content: center;
     align-items: center;
-    text-align: centers;
+    text-align: center;
     
     margin-left: 500px;
      
@@ -276,3 +287,4 @@ footer{
     background-color: cadetblue;
     color: beige;
 }
+
