@@ -10,17 +10,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1%;
+    height: 10px;
+    
 }
 .navbar-center {
     flex: 1;
     text-align: center;
 }
-.container{ 
+.container-fluid{ 
     padding: 20px;
     padding-left: 7%;
     display: flex;
     justify-content:flex-start;
+    
     align-items: flex-start;
     gap: 20px;
 }
@@ -33,32 +35,46 @@
     background-color: antiquewhite;
 }
 #home {
-    width: 500px;
-    padding-left: 3%;
-    padding: 3%;
-    margin-right: 10%;
-
+    width: 1000px;
+    padding-left: 0;
+    padding: 2%;
+    margin-right: 5%;
+    height: 325px;
 }
+
+.about-me-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}   
+
+.about-me-column{
+    flex: 1;
+}
+
 #pic img{
-    border-radius: 50px;
-    height: 750px;
-    width: 500px;
+    border-radius: 90px;
+    height: 250px;
+    width: 200px;
+}
+
+#pic{
+    border-radius: 90px;
 }
 #head{
     background-color: antiquewhite;
     width: 700px;
     height: 40px;
     padding: 2%;
-     font-style: italic;
      margin-top: 25px;
      margin-bottom: 20px;
      text-align: center;
-     margin: 20px auto;
+     margin: 20px ;
      border-radius: 50px;
      border-color: cadetblue;
      border-style: solid;
-     border-width: 7px;
-     width: 600px;
+     border-width: 5px;
+
      display:flex;
      justify-content: center;   
      align-items: center;
@@ -134,6 +150,7 @@ footer{
     justify-content:flex-start;
     align-items: flex-start;
     gap: 20px;
+   
 }
 
 #p
@@ -151,10 +168,7 @@ footer{
      justify-content: center;
      text-align: center;
      margin: auto;
-     margin-top: 20px;
-     font-style: italic;
-
-     
+     margin-top: 20px;    
 }
 
 
@@ -164,9 +178,10 @@ footer{
     border-width: 5px ;
     border-color: cadetblue;
     border-style:solid;
-    padding: 3%;
+    padding: 2%;
     border-radius: 50px;
     background-color: beige;
+    height:570px ;
     
 }
 #p2
@@ -174,18 +189,20 @@ footer{
     border-width: 5px ;
     border-color: cadetblue;
     border-style:solid;
-    padding: 3%;
+    padding: 2%;
     border-radius: 50px;
     background-color: beige;
+    height:570px ;
 }
 #p3
 {
     border-width: 5px ;
     border-color: cadetblue;
     border-style:solid;
-    padding: 3%;
+    padding:2%;
     border-radius: 50px;
     background-color: beige;
+    height:50px ;
 }
 #homebutton
     {
@@ -232,7 +249,6 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 20px auto;
-        font-style: italic;
          
     
     
